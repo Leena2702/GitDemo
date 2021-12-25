@@ -1,15 +1,15 @@
 public class ReverseNum {
     public static void main(String[] args) {
-        int n=143;
-        int j=0;
-        int a=n;
+        int num=345;
+        int rev=0;
+        int a=num;
         while(a>0){
             int i=a%10;
-             j=(j*10)+i;
+             rev=(rev*10)+i;
             a=a/10;
 
 
         }
-        System.out.println("The reverse of number is"+j);
+        System.out.println("The reverse of number is"+rev);
     }
 }
